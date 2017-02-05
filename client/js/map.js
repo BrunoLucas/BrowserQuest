@@ -150,6 +150,7 @@ define(['jquery', 'area'], function($, Area) {
 
         ready: function(f) {
         	this.ready_func = f;
+            console.log('Teste');
         },
 
         tileIndexToGridPosition: function(tileNum) {
